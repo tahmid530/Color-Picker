@@ -19,7 +19,7 @@ public class ColorPicker extends JFrame {
 		titleLabel.setFont(new Font("Arial", Font.BOLD, 20));
 		add(titleLabel, BorderLayout.NORTH);
 
-		String[] colors = { "Red", "Green", "Blue", "Yellow", "Black", "White" };
+		String[] colors = { "Select a color", "Red", "Green", "Blue", "Yellow", "Black", "White" };
 		colorBox = new JComboBox<>(colors);
 		colorBox.setFont(new Font("Arial", Font.PLAIN, 18));
 		JPanel comboPanel = new JPanel();
